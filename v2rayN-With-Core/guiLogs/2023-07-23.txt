@@ -1,0 +1,18 @@
+2023-07-23 22:03:56.3518-INFO MyAppExit Begin
+2023-07-23 22:03:56.8234-INFO MyAppExit End
+2023-07-23 22:05:49.7268-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-23 22:05:51.3816-INFO Tun mode configuration file test start
+2023-07-23 22:05:53.6354-INFO Tun mode configuration file test end
+2023-07-23 22:06:22.4487-INFO Tun mode monitors restart
+2023-07-23 22:06:50.6901-INFO UpdateTaskRunSubscription
+2023-07-23 22:07:50.6889-INFO UpdateTaskRunGeo
+2023-07-23 22:13:24.9816-INFO MyAppExit Begin
+2023-07-23 22:13:25.2092-INFO MyAppExit End
+2023-07-23 22:19:58.8180-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-23 22:19:59.7675-INFO Tun mode configuration file test start
+2023-07-23 22:20:02.0869-INFO Tun mode configuration file test end
+2023-07-23 22:20:30.8369-INFO Tun mode monitors restart
+2023-07-23 22:20:59.3485-INFO UpdateTaskRunSubscription
+2023-07-23 22:21:59.3448-INFO UpdateTaskRunGeo
+2023-07-23 22:24:34.6463-INFO MyAppExit Begin
+2023-07-23 22:24:34.8616-INFO MyAppExit End
