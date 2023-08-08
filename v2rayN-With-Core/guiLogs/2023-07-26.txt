@@ -1,9 +1,0 @@
-2023-07-26 15:10:02.5662-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
-2023-07-26 15:10:06.3952-INFO Tun mode configuration file test start
-2023-07-26 15:10:08.6415-INFO Tun mode configuration file test end
-2023-07-26 15:10:27.4466-INFO Tun mode monitors restart
-2023-07-26 15:10:47.4478-INFO Tun mode monitors restart
-2023-07-26 15:11:03.6330-INFO UpdateTaskRunSubscription
-2023-07-26 15:12:03.6270-INFO UpdateTaskRunGeo
-2023-07-26 15:24:33.4428-INFO MyAppExit Begin
-2023-07-26 15:24:33.6679-INFO MyAppExit End
