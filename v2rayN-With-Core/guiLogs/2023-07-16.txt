@@ -1,0 +1,11 @@
+2023-07-16 07:47:06.1219-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-16 07:47:07.5119-INFO Tun mode configuration file test start
+2023-07-16 07:47:09.8126-INFO Tun mode configuration file test end
+2023-07-16 07:47:38.5617-INFO Tun mode monitors restart
+2023-07-16 07:48:06.8324-INFO UpdateTaskRunSubscription
+2023-07-16 07:49:06.8427-INFO UpdateTaskRunGeo
+2023-07-16 08:08:38.0989-DEBUG The operation has timed out.,The operation has timed out.
+2023-07-16 08:08:38.1456-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-16 21:03:54.3372-INFO MyAppExit Begin
+2023-07-16 21:03:54.6905-INFO MyAppExit End
