@@ -1,0 +1,88 @@
+2023-07-14 03:27:04.0690-INFO Current_SessionEnding
+2023-07-14 03:27:04.4235-INFO MyAppExit Begin
+2023-07-14 03:27:04.8477-INFO MyAppExit End
+2023-07-14 14:02:09.1492-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-14 14:02:13.3738-INFO Tun mode configuration file test start
+2023-07-14 14:02:15.6163-INFO Tun mode configuration file test end
+2023-07-14 14:03:10.1312-INFO UpdateTaskRunSubscription
+2023-07-14 14:04:10.1318-INFO UpdateTaskRunGeo
+2023-07-14 20:18:58.8559-INFO MyAppExit Begin
+2023-07-14 20:18:59.0835-INFO MyAppExit End
+2023-07-14 20:19:14.1105-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-14 20:19:15.0040-INFO Tun mode configuration file test start
+2023-07-14 20:19:17.3961-INFO Tun mode configuration file test end
+2023-07-14 20:19:23.5367-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 20:19:23.5860-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 20:19:23.5860-ERROR System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+2023-07-14 20:19:36.0548-INFO Tun mode monitors restart
+2023-07-14 20:19:51.9000-DEBUG The operation has timed out.,The operation has timed out.
+2023-07-14 20:19:51.9000-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 20:19:53.9031-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 20:19:53.9222-DEBUG    at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at v2rayN.Base.HttpClientHelper.GetAsync(HttpClient client, String url, CancellationToken token)
+   at v2rayN.Handler.DownloadHandle.DownloadStringAsync(String url, Boolean blProxy, String userAgent)
+2023-07-14 20:19:53.9222-ERROR System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+2023-07-14 20:19:53.9222-INFO StatusCode error: https://api.github.com/repos/2dust/v2rayN/releases
+2023-07-14 20:20:14.6943-INFO UpdateTaskRunSubscription
+2023-07-14 20:21:14.6994-INFO UpdateTaskRunGeo
+2023-07-14 21:05:43.6348-DEBUG An error occurred while sending the request.,An error occurred while sending the request.
+2023-07-14 21:05:43.6348-DEBUG    at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at v2rayN.Base.HttpClientHelper.GetAsync(HttpClient client, String url, CancellationToken token)
+   at v2rayN.Handler.DownloadHandle.DownloadStringAsync(String url, Boolean blProxy, String userAgent)
+2023-07-14 21:05:43.6348-ERROR System.IO.IOException: The response ended prematurely.
+2023-07-14 21:05:44.6003-DEBUG An error occurred while sending the request.,An error occurred while sending the request.
+2023-07-14 21:05:44.6003-DEBUG    at v2rayN.Base.DownloaderHelper.<>c.<DownloadStringAsync>b__3_0(Object sender, AsyncCompletedEventArgs value)
+   at Downloader.DownloadService.OnDownloadFileCompleted(AsyncCompletedEventArgs e) in D:\Users\b.khosravifar\source\repos\Personal\Downloader\src\Downloader\DownloadService.cs:line 380
+   at Downloader.DownloadService.StartDownload() in D:\Users\b.khosravifar\source\repos\Personal\Downloader\src\Downloader\DownloadService.cs:line 207
+   at Downloader.DownloadService.StartDownload() in D:\Users\b.khosravifar\source\repos\Personal\Downloader\src\Downloader\DownloadService.cs:line 212
+   at Downloader.DownloadService.DownloadFileTaskAsync(String address, CancellationToken cancellationToken) in D:\Users\b.khosravifar\source\repos\Personal\Downloader\src\Downloader\DownloadService.cs:line 82
+   at v2rayN.Base.DownloaderHelper.DownloadStringAsync(IWebProxy webProxy, String url, String userAgent, Int32 timeout)
+   at v2rayN.Handler.DownloadHandle.DownloadStringViaDownloader(String url, Boolean blProxy, String userAgent)
+2023-07-14 21:05:44.6003-ERROR System.Net.Http.HttpRequestException: An error occurred while sending the request.
+2023-07-14 21:05:48.4063-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 21:05:48.4063-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 21:05:48.4063-ERROR System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+2023-07-14 21:06:04.5089-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 21:06:04.5089-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 21:06:04.5089-ERROR System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+2023-07-14 21:06:07.8149-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 21:06:07.8149-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 21:06:07.8152-ERROR System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+2023-07-14 21:06:52.6740-INFO MyAppExit Begin
+2023-07-14 21:06:52.8706-INFO MyAppExit End
+2023-07-14 21:07:19.9697-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-14 21:08:20.4630-INFO MyAppExit Begin
+2023-07-14 21:08:20.4916-INFO UpdateTaskRunSubscription
+2023-07-14 21:08:20.6687-INFO MyAppExit End
+2023-07-14 21:21:05.2704-INFO v2rayN start up | v2rayN - V6.23 - 2023/04/21 | C:\Users\Administrator\Desktop\v2rayN-With-Core\v2rayN.exe
+2023-07-14 21:22:05.9753-INFO UpdateTaskRunSubscription
+2023-07-14 21:23:05.9732-INFO UpdateTaskRunGeo
+2023-07-14 22:02:51.0335-INFO Tun mode configuration file test start
+2023-07-14 22:02:53.1825-INFO Tun mode configuration file test end
+2023-07-14 22:03:20.7781-INFO Tun mode monitors restart
+2023-07-14 22:05:59.6611-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 22:05:59.6776-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 22:05:59.6776-ERROR System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+2023-07-14 22:06:30.5825-DEBUG The SSL connection could not be established, see inner exception.,The SSL connection could not be established, see inner exception.
+2023-07-14 22:06:30.5825-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, IWebProxy webProxy, Int32 downloadTimeout, Int32& responseTime)
+2023-07-14 22:06:30.5825-ERROR System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+2023-07-14 22:06:33.8555-INFO MyAppExit Begin
+2023-07-14 22:06:34.0576-INFO MyAppExit End
